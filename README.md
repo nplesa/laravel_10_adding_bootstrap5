@@ -2,16 +2,12 @@
 
 Next steps will add BOOTSTRAP to your Laravel 10 application
 
+1. composer require laravel/ui
 
-1.
-composer require laravel/ui
+2. php artisan ui bootstrap --auth
 
-2.
-php artisan ui bootstrap --auth
-
-3.
 Install dependencies from package.json
-npm i && npm run dev
+3. npm i && npm run dev
 
 4. Open resources/js folder and check if you have this line in app.js file, if not please add line:
 import './bootstrap';
