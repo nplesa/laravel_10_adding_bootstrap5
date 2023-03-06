@@ -8,7 +8,7 @@ Next steps will add BOOTSTRAP to your Laravel 10 application
 
 3. npm install && npm run dev
 
-4. npm install bootstrap@latest @popperjs/core --save-dev
+4. npm install jquery@latest bootstrap@latest @popperjs/core --save-dev
 
 5. Open resources/js folder and check if you have this line in app.js file, if not please add line:
 ```
